@@ -27,7 +27,7 @@ router.post("/", async (req, res) => {
     const saveMusic = await newMusic.save();
 
     res.status(201).json({
-      message: "მუსია წარმატებით დაემატა",
+      message: "მუსიკა წარმატებით დაემატა",
       data: saveMusic,
     });
   } catch (error) {}

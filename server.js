@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
   res.json({ status: "ok", message: "Music API server is running" });
 });
 
-//
+// facebook.com/music -> musicRoutes
 app.use("/music", musicRoutes);
 
 app.listen(PORT, () => {
